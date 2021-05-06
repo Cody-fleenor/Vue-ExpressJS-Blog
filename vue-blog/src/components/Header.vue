@@ -1,20 +1,39 @@
 <template>
   <div>
-    <b-navbar toggleable type="dark" variant="dark">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
-
+    <b-navbar toggleable style="background-color: #1D2D44;">
+      <b-navbar-brand href="#">
+        <b-iconstack style="margin: 5px;color: white;">
+          <b-icon stacked icon="arrows-fullscreen" scale="1.5" animation="throb"></b-icon>
+          <b-icon stacked icon="circle-fill" scale="1.5" style="color: #748CAB;"></b-icon>
+          <b-icon stacked icon="code-slash" scale="1"></b-icon>
+        </b-iconstack>
+      </b-navbar-brand>
+      <b-nav-text style="color: white;">
+        My Internship Blog
+      </b-nav-text>
       <b-navbar-toggle target="navbar-toggle-collapse">
         <template #default="{ expanded }">
-          <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
-          <b-icon v-else icon="chevron-bar-down"></b-icon>
+          <b-icon v-if="expanded" icon="chevron-bar-up" style="color: white;"></b-icon>
+          <b-icon v-else icon="chevron-bar-down" style="color: white;"></b-icon>
         </template>
       </b-navbar-toggle>
 
       <b-collapse id="navbar-toggle-collapse" is-nav>
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">Link 1</b-nav-item>
-          <b-nav-item href="#">Link 2</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+        <b-navbar-nav>
+          <b-button-group>
+            <b-button title="Save file" style="opacity: 1;">
+              <b-icon icon="files" aria-hidden="true"></b-icon>
+                Projects
+            </b-button>
+            <b-button title="Save file" style="opacity: 1;">
+              <b-icon icon="github" aria-hidden="true"></b-icon>
+                GitHub
+            </b-button>
+            <b-button title="Save file" style="opacity: 1;">
+              <b-icon icon="linkedin" aria-hidden="true"></b-icon>
+                LinkedIn
+            </b-button>
+          </b-button-group>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
