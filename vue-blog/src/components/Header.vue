@@ -20,19 +20,30 @@
 
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav>
-          <b-button-group>
-            <b-button title="Save file" style="opacity: 1;">
-              <b-icon icon="files" aria-hidden="true"></b-icon>
-                Projects
-            </b-button>
-            <b-button title="Save file" style="opacity: 1;">
-              <b-icon icon="github" aria-hidden="true"></b-icon>
-                GitHub
-            </b-button>
-            <b-button title="Save file" style="opacity: 1;">
-              <b-icon icon="linkedin" aria-hidden="true"></b-icon>
-                LinkedIn
-            </b-button>
+          <b-button-group style="display: block; text-align: center;">
+            <b-link href="http://caveprojects.link">
+              <b-button title="Projects" size="sm" style="margin: 2px; opacity: 1;">
+                <b-icon icon="files" aria-hidden="true"></b-icon>
+                  Projects
+              </b-button>
+            </b-link>
+            <b-link href="https://www.github.com/Cody-fleenor">
+              <b-button title="Projects" size="sm" style="margin: 2px; opacity: 1;">
+                <b-icon icon="github" aria-hidden="true"></b-icon>
+                  GitHub
+              </b-button>
+            </b-link>
+            <b-link href="https://www.linkedin.com/in/cody-fleenor">
+              <b-button title="Projects" size="sm" style="margin: 2px; opacity: 1;">
+                <b-icon icon="linkedin" aria-hidden="true"></b-icon>
+                  LinkedIn
+              </b-button>
+            </b-link>
+            <b-link to="/">
+              <b-button title="Contact Me" size="sm" style="margin: 2px; opacity: 1;">
+                  <b-icon icon="envelope-open" aria-hidden="true"></b-icon> Contact
+              </b-button>
+            </b-link>
           </b-button-group>
         </b-navbar-nav>
       </b-collapse>
