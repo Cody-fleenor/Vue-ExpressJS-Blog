@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable style="background-color: #1D2D44;">
-      <b-navbar-brand href="#">
+      <b-navbar-brand href="/">
         <b-iconstack style="margin: 5px;color: white;">
           <b-icon stacked icon="arrows-fullscreen" scale="1.5" animation="throb"></b-icon>
           <b-icon stacked icon="circle-fill" scale="1.5" style="color: #748CAB;"></b-icon>
