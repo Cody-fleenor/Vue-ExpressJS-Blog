@@ -16,11 +16,11 @@
                 LinkedIn
             </b-button>
         </b-link>
-        <b-link to="/">
+        <!--<b-link to="/">
             <b-button title="Contact Me" variant="primary" size="sm" style="margin: 2px;">
                 <b-icon icon="envelope-open" aria-hidden="true"></b-icon> Contact
             </b-button>
-        </b-link>
+        </b-link>-->
     </b-card>
 </template>
 

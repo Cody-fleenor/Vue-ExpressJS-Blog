@@ -39,11 +39,11 @@
                   LinkedIn
               </b-button>
             </b-link>
-            <b-link to="/">
+            <!--<b-link to="/">
               <b-button title="Contact Me" size="sm" style="margin: 2px; opacity: 1;">
                   <b-icon icon="envelope-open" aria-hidden="true"></b-icon> Contact
               </b-button>
-            </b-link>
+            </b-link>-->
           </b-button-group>
         </b-navbar-nav>
       </b-collapse>
